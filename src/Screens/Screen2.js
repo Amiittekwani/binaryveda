@@ -116,21 +116,24 @@ const App = () => (
           <View style = {{flex: 0.2, height: 50, backgroundColor: "green"}}/>
       </View>
 
-      {/* <View style= {{height: 60, width: "100%", flexDirection: "row", justifyContent: "space-evenly"}}>
+      <View style= {{height: 60, width: "100%", flexDirection: "row", justifyContent: "space-evenly"}}>
           <View>
-          <Image style = {styles.socialImage}source = {require("../images/facebook.png")}/>
+          <Image style = {styles.Image3}source = {require("../images/upload2.png")}/>
+          <Text style = {styles.Text3}>Uploads</Text>
               <View
-      style= {{marginTop : "10",borderWidth: 1, width: "100%", alignSelf : "center", color: "black"}}/>
+      style= {{marginTop : 10,borderWidth: 0.5, width: "100%", alignSelf : "center", borderColor: "rgb(255,181,0)"}}/>
           </View>
           <View>
-          <Image style = {styles.socialImage}source = {require("../images/facebook.png")}/>
+          <Image style = {styles.Image3}source = {require("../images/gallery.png")}/>
+          <Text style = {styles.Text3}>Exihibitions</Text>
           </View>
           <View>
-          <Image style = {styles.socialImage}source = {require("../images/facebook.png")}/>
+          <Image style = {styles.Image3}source = {require("../images/revenue.png")}/>
+          <Text style = {styles.Text3}>Revenue</Text>
           </View>
 
-      </View> */}
-      <View>
+      </View>
+      <View style= {{marginTop: 20}}>
       <View style = {{flexDirection: "row"}}>
       <Image style = {styles.lastImage}source = {require("../images/bgimage.png")}/>
       <Image style = {styles.lastImage}source = {require("../images/bgimage.png")}/>

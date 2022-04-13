@@ -118,6 +118,19 @@ const styles = {
         height: 30,
         width: 30 
     },
+    Image3 : {
+        marginTop: 10,
+        height: 40,
+        width: 40 
+    },
+    Text3 : {
+        marginTop: 5,
+        marginLeft: -10,
+        fontSize: 14,
+        color: "black",
+        fontFamily: "Barlow-Medium",
+        textAlign: "center"
+    },
     endText:{
         marginTop: 20,
         fontSize: 16,
